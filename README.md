@@ -7,7 +7,7 @@
 </div>
 
 > [!NOTE]  
-Quote @xtekky "By using this repository or any code related to it, you agree to the [legal notice](https://github.com/xtekky/gpt4free/blob/main/LEGAL_NOTICE.md). The author is **not responsible for the usage of this repository nor endorses it**, nor is the author responsible for any copies, forks, re-uploads made by other users, or anything else related to GPT4Free. This is the author's only account and repository. To prevent impersonation or irresponsible actions, please comply with the GNU GPL license this Repository uses." **As you realized, I'm not going to take responsibility either ;)**  
+Quote @xtekky "By using this repository or any code related to it, you agree to the [legal notice](https://github.com/xtekky/gpt4free/blob/main/LEGAL_NOTICE.md). The author is **not responsible for the usage of this repository nor endorses it**, nor is the author responsible for any copies, forks, re-uploads made by other users, or anything else related to GPT4Free. This is the author's only account and repository. To prevent impersonation or irresponsible actions, please comply with the GNU GPL license this Repository uses." **As you realized, I'm not going to take responsibility either ;)** This utility was developed since the end of last summer, and only now decided to post it here.
 
 ## 📂 How to Install
 
@@ -16,8 +16,7 @@ Quote @xtekky "By using this repository or any code related to it, you agree to 
 3. Move `tai` to `/usr/local/bin` `sudo mv tai /usr/local/bin/`
 4. Make it executable `sudo chmod +x tai`
 
-ok now you can run it, just type "tai" in terminal
-- alpha version
+ok now you can run it, just type `tai` in terminal
 
   ## 📝 Todo
 As per the survey, here is a list of improvements to come
