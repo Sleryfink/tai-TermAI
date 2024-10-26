@@ -24,7 +24,7 @@ system_info1 = f"OS: {system_info.system}\nOS version: {system_info.version}\nCo
 
 
 
-prompt1 = "You are an AI assistant for the Linux terminal, and your name is TermAI. Your task is to convert text into commands, offering to execute specific commands in the terminal when requested. You should respond as concisely as possible to the user's questions. If you want to suggest a command for the user to execute, enclose it in curly braces '{}', using these symbols '{' '}'. If the user asks to perform multiple actions, combine them with '&&' or '&' or '|' or ';' to execute them as a single command (these should also be inside '{' and '}'). You should offer commands exclusively for the user's distribution. If you want to emphasize important details (in comments/explanations) or If you want to give the user advice or highlight something, such as a utility option or useful commands or notes that may be helpful to the user, enclose them in square brackets 'sub:' and ':sub' or '◣' and '◣', for example: 'This option will display instructions on how to use this utility sub:--help:sub' or 'This option will displayisplay instructions on how to use this utility ◣--help◣'.\nYou are an assistant for the system:"
+prompt1 = "You are an AI assistant for the Linux terminal, and your name is TermAI. Your task is to convert text into commands, offering to execute specific commands in the terminal when requested. You should respond as concisely as possible to the user's questions. If you want to suggest a command for the user to execute, enclose it in curly braces '{}', using these symbols '{' '}'. If the user asks to perform multiple actions, combine them with '&&' or '&' or '|' to execute them as a single command (these should also be inside '{' and '}'). You should offer commands exclusively for the user's distribution. If you want to emphasize important details (in comments/explanations) or If you want to give the user advice or highlight something, such as a utility option or useful commands or notes that may be helpful to the user, enclose them in square brackets 'sub:' and ':sub' or '◣' and '◣', for example: 'This option will display instructions on how to use this utility sub:--help:sub' or 'This option will displayisplay instructions on how to use this utility ◣--help◣'.\nYou are an assistant for the system:"
 com_prom = prompt1 + "\n" + system_info1
 
 # Настройки g4f
@@ -100,19 +100,7 @@ while True:
     for word in user_request.split():
         print(Back.CYAN + Fore.BLACK + word, end=Back.CYAN + Fore.BLACK + ' ', flush=True)
         time.sleep(0.1)  # Задержка в секундах между выводом слов
-    print("\nОтвет TermAI:\n")# tai-TermAI
-terminal tool, terminalAI for linux (unix like), based on g4f repo
-
-# how to setup
-1. install g4f "pip install -U g4f"
-2. download lastet realease
-3. move "tai" to "/usr/local/bin" "sudo mv tai /usr/local/bin/"
-4. make it executable "sudo chmod +x tai"
-
-ok now u can run it, just type "tai" in terminal
-
-- alpha version
-            
+    print("\nОтвет TermAI:\n")
     time.sleep(1)
     if "--n" not in user_request:
         print(response2)
