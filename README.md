@@ -1,17 +1,13 @@
 <h1 align="center"><img src="https://raw.githubusercontent.com/elementary/icons/main/apps/64/utilities-terminal.svg" alt="Terminal Icon" width="34" height="34" style="vertical-align: middle;"> Tai - TermAI</h1>
 <p align="center"><i>Quick access to temrminal AI based on g4f repo</i></p>
 <div align="center">
-  <img src="https://img.shields.io/badge/g4f-Pip-blue" alt="TeleBot">
   <img src="https://img.shields.io/badge/Python-3.12.2-blue" alt="Python">
   <img src="https://img.shields.io/badge/License-GPL%20v3-blue" alt="License">
 </div>
 
-> [!NOTE]  
-Quote @xtekky "By using this repository or any code related to it, you agree to the [legal notice](https://github.com/xtekky/gpt4free/blob/main/LEGAL_NOTICE.md). The author is **not responsible for the usage of this repository nor endorses it**, nor is the author responsible for any copies, forks, re-uploads made by other users, or anything else related to GPT4Free. This is the author's only account and repository. To prevent impersonation or irresponsible actions, please comply with the GNU GPL license this Repository uses." **As you realized, I'm not going to take responsibility either ;)** This utility was developed since the end of last summer, and only now decided to post it here.
-
 ## 📂 How to Install
 
-1. Install g4f `pip install -U g4f`
+1. Install colorama `pip install colorama`
 2. Download lastet realease
 3. Move `tai` to `/usr/local/bin` `sudo mv tai /usr/local/bin/`
 4. Make it executable `sudo chmod +x tai`
