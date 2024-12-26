@@ -1,5 +1,5 @@
 <h1 align="center"><img src="https://raw.githubusercontent.com/elementary/icons/main/apps/64/utilities-terminal.svg" alt="Terminal Icon" width="34" height="34" style="vertical-align: middle;"> Tai - TermAI</h1>
-<p align="center"><i>Quick access to temrminal AI based on g4f repo</i></p>
+<p align="center"><i>Quick access to temrminal AI based on api.onlysq.ru</i></p>
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3.12.2-blue" alt="Python">
   <img src="https://img.shields.io/badge/License-GPL%20v3-blue" alt="License">
