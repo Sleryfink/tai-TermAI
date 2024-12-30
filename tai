@@ -1,4 +1,5 @@
 #!/bin/python3
+# this is one of the very first alpha versions ;)
 from colorama import Fore, Back, Style, init
 init(autoreset=True)
 import time
