@@ -4,6 +4,7 @@
   <img src="https://img.shields.io/badge/Python-3.12.2-blue" alt="Python">
   <img src="https://img.shields.io/badge/License-GPL%20v3-blue" alt="License">
 </div>
+
 <p align="center">
   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2ZwN2lveW95bm5hNm9nZzZuNXEyaGdsMTFoaGZhN3lpOHdjaTB4bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HWvg948r9fKkbtlMVb/giphy.gif" alt="Demo gif" />
 </p>
