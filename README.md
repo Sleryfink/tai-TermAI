@@ -7,18 +7,18 @@
 
 ## 📂 How to Install
 
-1. Install colorama `pip install colorama`
+1. Install requirements `pip install time subprocess distro requests rich`
 2. Download lastet realease
 3. Move `tai` to `/usr/local/bin` `sudo mv tai /usr/local/bin/`
-4. Make it executable `sudo chmod +x tai`
+4. Make it executable `sudo chmod +x /usr/local/bin/tai`
 
 ok now you can run it, just type `tai` in terminal
 
   ## 📝 Todo
 As per the survey, here is a list of improvements to come
 - [x] Alpha version
-- [ ] Better tui (terminal ui)
-- [ ] openai api version
+- [x] Better tui (terminal ui)
+- [ ] Openai api version
 
 ## 📃 License
 
